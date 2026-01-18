@@ -1,0 +1,111 @@
+/*common class starts here*/
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.font{
+    font-family: "Open Sans", sans-serif;
+    max-width: 1500px;
+}
+.gradient{
+    background: linear-gradient(to right, #F7E93F, #FB09B4, #9100F8);
+}
+
+
+/*common class ends here*/
+
+/*navber section starts here*/
+
+#navbar-container{
+    background-color: #1A0B2E;
+    color: white;
+}
+
+.content{
+    width: 80%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: center;
+}
+.content .list ul{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.content .list li{
+    list-style: none;
+    font-size: 13px;
+}
+.btn{
+    color: white;
+    border: none;
+    padding: 7px 10px;
+    border-radius: 20px;
+}
+
+
+/*navber section ends here*/
+
+/*banner section starts here*/
+
+#banner-container{
+    background: url(./images/assets/hero-bg.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    width: 100%;
+    height: 650px;
+}
+.banner-content{
+    background: url(./images/assets/hero-circle.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 100px;
+}
+.banner-info .microphone{
+    text-align: center;
+    padding: 100px;  
+}
+.banner-info{
+    text-align: center;
+    color: white;   
+}
+.banner-info h1{
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+.banner-info p{
+    font-size: 13px;
+    padding-bottom: 15px;
+}
+.btn-2{
+    color:lawngreen;
+    background-color: #1A0B2E;
+    border: 1px solid lawngreen;
+    padding: 5px 10px;
+    border-radius: 15px;
+    margin: 5px;
+}
+
+/*banner section ends here*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:576px) {
+    
+}
