@@ -79,6 +79,7 @@
 .banner-info p{
     font-size: 0.8rem;
     padding-bottom: 15px;
+    color: lightgray;
 }
 .btn-2{
     color: #00FF88;
@@ -116,11 +117,13 @@
 .Podcast-text .pera-1{
     font-size: 0.8rem;
     line-height: 22px;
+    color: lightgray;
 }
 .Podcast-text .pera-2{
     font-size: 0.8rem;
     padding-top: 20px;
     padding-bottom: 40px;
+    color: lightgray;
 }
 
 .Podcast-card{
@@ -135,7 +138,7 @@
 }
 .card p{
     font-size: 0.8rem;
-    color: white;
+    color: lightgray;
     padding-top: 5px;
 }
 
@@ -144,11 +147,64 @@
 /*Choose-TechWave-container starts here*/
 
 #Choose-TechWave-container{
-    background-color: #2B0855;
+    background-color: #230449;
+}
+.Choose-TechWave-content{
+    width: 80%;
+    height: 600px;
+    margin: 0 auto;
+}
+.Choose-TechWave-text{
+    color: white;
+    text-align: center;
+    padding: 40px;
+    font-weight: 700;
+}
+.Choose-TechWave-card>*{
+    background-color: #1B043A;
+    border: 1px solid #1B043A;
+    padding: 20px;
+    color: white;
+    border-radius: 20px;
+}
+.Choose-TechWave-card img{
+    width: 30px;
+}
+.Choose-TechWave-card h3{
+    font-size: 1rem;
+    padding: 10px 0px;
+}
+.Choose-TechWave-card p{
+    font-size: 0.7rem;
+    line-height: 20px;
+    color: lightgray;
+}
+.TechWave-card-1{
+    grid-area: card-1;
+    
+}
+.TechWave-card-2{
+    grid-area: card-2;
+}
+.TechWave-card-3{
+    grid-area: card-3;
+}
+.TechWave-card-4{
+    grid-area: card-4;
+}
+.TechWave-card-5{
+    grid-area: card-5;
 }
 
-
-
+.Choose-TechWave-card{
+    display: grid;
+    gap: 10px;
+    grid-template-areas: 
+    "card-1 card-2 card-2"
+    "card-1 card-3 card-3"
+    "card-4 card-4 card-5" ;
+    
+}
 
 /*Choose-TechWave-container ends here*/
 
