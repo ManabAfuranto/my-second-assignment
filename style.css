@@ -180,8 +180,7 @@
     color: lightgray;
 }
 .TechWave-card-1{
-    grid-area: card-1;
-    
+    grid-area: card-1;   
 }
 .TechWave-card-2{
     grid-area: card-2;
@@ -202,8 +201,7 @@
     grid-template-areas: 
     "card-1 card-2 card-2"
     "card-1 card-3 card-3"
-    "card-4 card-4 card-5" ;
-    
+    "card-4 card-4 card-5" ;   
 }
 
 /*Choose-TechWave-container ends here*/
@@ -248,11 +246,47 @@
         text-align: center;
     }
     .Podcast-card{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    justify-items: center;
-    gap: 40px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+        gap: 40px;
     }
+
+/*Choose-TechWave-container starts here*/
+
+.Choose-TechWave-content{
+    height: 950px;  
+}
+
+.TechWave-card-1{
+    grid-area: card-1;   
+}
+.TechWave-card-2{
+    grid-area: card-2;
+}
+.TechWave-card-3{
+    grid-area: card-3;
+}
+.TechWave-card-4{
+    grid-area: card-4;
+}
+.TechWave-card-5{
+    grid-area: card-5;
+}
+
+.Choose-TechWave-card{
+    display: grid;
+    gap: 10px;
+    align-items: center;
+    grid-template-areas: 
+    "card-1"
+    "card-2"
+    "card-3"
+    "card-4"
+    "card-5" ;   
+}
+
+    
 
 
 
@@ -269,13 +303,54 @@
 
 
 @media screen and (min-width:577px) and (max-width:992px) {
-    .hide-md{
-        display: none;
-    }
-    .content{
-        width: 100%;
-        padding: 0px 20px;
-    }
+.hide-md{
+     display: none;
+}
+.content{
+    width: 100%;
+    padding: 0px 20px;
+}
+
+/*Choose-TechWave-container starts here*/
+
+.Choose-TechWave-content{
+    height: 900px;  
+}
+
+.TechWave-card-1{
+    grid-area: card-1;   
+}
+.TechWave-card-2{
+    grid-area: card-2;
+}
+.TechWave-card-3{
+    grid-area: card-3;
+}
+.TechWave-card-4{
+    grid-area: card-4;
+}
+.TechWave-card-5{
+    grid-area: card-5;
+}
+
+.Choose-TechWave-card{
+    display: grid;
+    gap: 10px;
+    align-items: center;
+    grid-template-areas: 
+    "card-1"
+    "card-2"
+    "card-3"
+    "card-4"
+    "card-5" ;   
+}
+
+
+
+
+
+
+
 
 }
 
