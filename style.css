@@ -18,7 +18,7 @@
 /*navber section starts here*/
 
 #navbar-container{
-    background-color: #1A0B2E;
+    background-color: #1B043A;
     color: white;
 }
 
@@ -37,7 +37,7 @@
 }
 .content .list li{
     list-style: none;
-    font-size: 13px;
+    font-size: 0.8rem;
 }
 .btn{
     color: white;
@@ -77,19 +77,80 @@
     padding-bottom: 15px;
 }
 .banner-info p{
-    font-size: 13px;
+    font-size: 0.8rem;
     padding-bottom: 15px;
 }
 .btn-2{
-    color:lawngreen;
+    color: #00FF88;
     background-color: #1A0B2E;
-    border: 1px solid lawngreen;
+    border: 1px solid #00FF88;
     padding: 5px 10px;
     border-radius: 15px;
     margin: 5px;
 }
 
 /*banner section ends here*/
+
+/*About-Podcast section starts here*/
+
+#About-Podcast{
+    background-color: #1B043A;
+}
+.Podcast-content{
+    width: 80%;
+    margin: 0 auto;
+    height: 450px;
+}
+.Podcast-text{
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    padding-top: 50px;
+}
+.Podcast-text h2{
+    font-size: 2rem;
+    font-weight: bolder;
+    padding: 10px;
+}
+.Podcast-text .pera-1{
+    font-size: 0.8rem;
+    line-height: 22px;
+}
+.Podcast-text .pera-2{
+    font-size: 0.8rem;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.Podcast-card{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    padding-top: 50px;
+}
+.Podcast-card .card{
+    color: #00FF88;
+    text-align: center;
+}
+.card p{
+    font-size: 0.8rem;
+    color: white;
+    padding-top: 5px;
+}
+
+/*About-Podcast section ends here*/
+
+/*Choose-TechWave-container starts here*/
+
+#Choose-TechWave-container{
+    background-color: #2B0855;
+}
+
+
+
+
+/*Choose-TechWave-container ends here*/
 
 
 
@@ -107,5 +168,74 @@
 
 
 @media screen and (max-width:576px) {
-    
+    .hide-sm{
+        display: none;
+    }
+    .content{
+        width: 100%;
+    }
+    .content .text{
+        margin-left: 30px;
+    }
+    .content .menu{
+        margin-left: 220px;
+    }
+
+    /*About-Podcast section starts here*/
+    .Podcast-content{
+        width: 100%;
+        height: 550px;
+    }
+    .Podcast-text{
+        width: 400px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .Podcast-card{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    gap: 40px;
+    }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:577px) and (max-width:992px) {
+    .hide-md{
+        display: none;
+    }
+    .content{
+        width: 100%;
+        padding: 0px 20px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:993px) {
+    .hide-lg{
+        display: none;
+    }
 }
