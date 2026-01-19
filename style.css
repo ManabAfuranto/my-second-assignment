@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 .font{
-    font-family: "Open Sans", sans-serif;
+    font-family: "Inter", sans-serif;
     max-width: 1600px;
 }
 .gradient{
@@ -62,15 +62,16 @@
     background: url(./images/assets/hero-circle.png);
     background-repeat: no-repeat;
     background-position: center;
-    padding-top: 100px;
+    padding: 150px;    
 }
-.banner-info .microphone{
+.microphone{
     text-align: center;
-    padding: 100px;  
+    position: relative;
+    top: 20px;
 }
 .banner-info{
     text-align: center;
-    color: white;   
+    color: white;
 }
 .banner-info h1{
     font-weight: bold;
@@ -88,6 +89,19 @@
     padding: 5px 10px;
     border-radius: 15px;
     margin: 5px;
+}
+.button .text{
+    background-color: #00FF88;
+    color: black;
+    width: 50px;
+    height: 20px;
+    padding: 3px;
+    font-weight: 600;
+    text-align: center;
+    border-radius: 15px;
+    position: relative;
+    left: 560px;
+    bottom: 250px;   
 }
 
 /*banner section ends here*/
@@ -264,12 +278,13 @@
 /*Meet Host section starts here*/
 
 #Meet-Host-container{
-    background-color: #1B043A;
+    background-color: #1B043A;   
 }
 .Meet-Host-content{
     width: 80%;
     margin: 0 auto;
     padding-top: 50px;
+    height: 430px;
 }
 .Meet-Host-Header{
     text-align: center;
@@ -320,9 +335,21 @@
     margin: 3px;
 }
 
-
 /*Meet Host section ends here*/
 
+/*footer section starts here*/
+
+#footer-container{
+    background-color:#1B043A;
+}
+.footer-content{
+    background-image: url(./images/assets/footer-bg.png);
+    height: 350px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/*footer section ends here*/
 
 
 
@@ -337,6 +364,8 @@
     .hide-sm{
         display: none;
     }
+
+/*navber section starts here*/
     .content{
         width: 100%;
     }
@@ -345,6 +374,13 @@
     }
     .content .menu{
         margin-left: 220px;
+    }
+
+/*banner section starts here*/
+    .button .text{
+        position: relative;
+        left: 170px;
+        bottom: 250px;  
     }
 
     /*About-Podcast section starts here*/
@@ -418,6 +454,12 @@
     flex-direction: column;
     text-align: center;
 }
+.Meet-Host-content{
+    height: 600px;
+}
+
+
+
 
 }
 
@@ -478,7 +520,7 @@
 
 .Episodes-fram{
     display: flex;
-    gap: 20px;
+    gap: 10px;
     align-items: center;
 }
 
