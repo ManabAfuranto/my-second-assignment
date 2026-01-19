@@ -6,7 +6,7 @@
 }
 .font{
     font-family: "Open Sans", sans-serif;
-    max-width: 1500px;
+    max-width: 1600px;
 }
 .gradient{
     background: linear-gradient(to right, #F7E93F, #FB09B4, #9100F8);
@@ -33,7 +33,7 @@
 .content .list ul{
     display: flex;
     flex-direction: row;
-    gap: 30px;
+    gap: 30px;   
 }
 .content .list li{
     list-style: none;
@@ -227,7 +227,6 @@
 .Episodes-fram{
     display: flex;
     justify-content: space-evenly;
-
 }
 .Episodes-card{
     background-color: #2F0761;
@@ -262,6 +261,71 @@
 
 /*Featured Episodes section ends here*/
 
+/*Meet Host section starts here*/
+
+#Meet-Host-container{
+    background-color: #1B043A;
+}
+.Meet-Host-content{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+.Meet-Host-Header{
+    text-align: center;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding-bottom: 30px;
+}
+.Host-Banner{
+    background-color: #2F0761;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border-radius: 20px;
+}
+.Host-Banner-Info{
+    padding-left: 20px;
+    color: white;
+
+}
+.Host-Banner-Info p{
+    font-size: 0.8rem;
+    line-height: 20px;
+    color: lightgray;
+    padding: 10px 0px;
+}
+.host-btn{
+    border: 2px solid #9100F8;
+    padding: 10px;
+    border-radius: 16px;
+    justify-items: center;
+    margin: 3px;
+}
+.host-btn-3{
+    width: 38px;
+    border: 2px solid #9100F8;
+    padding: 8px;
+    border-radius: 15px;
+    justify-items: center;
+    margin: 3px;
+}
+.host-btn-4{
+    width: 38px;
+    border: 2px solid #9100F8;
+    padding: 8px;
+    border-radius: 15px;
+    justify-items: center;
+    margin: 3px;
+}
+
+
+/*Meet Host section ends here*/
+
+
+
+
 
 
 
@@ -286,7 +350,7 @@
     /*About-Podcast section starts here*/
     .Podcast-content{
         width: 100%;
-        height: 550px;
+        height: 530px;
     }
     .Podcast-text{
         width: 400px;
@@ -303,7 +367,7 @@
 /*Choose-TechWave-container starts here*/
 
 .Choose-TechWave-content{
-    height: 950px;  
+    height: 960px;  
 }
 
 .TechWave-card-1{
@@ -334,9 +398,26 @@
     "card-5" ;   
 }
 
-    
+/*Featured Episodes section starts here*/
 
+.Episodes-fram{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+}
+.Episodes-content{
+    width: 100%;
+    height: 1260px;
+} 
 
+/*Meet Host section starts here*/
+
+.Host-Banner{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
 
 }
 
@@ -391,6 +472,14 @@
     "card-3"
     "card-4"
     "card-5" ;   
+}
+
+/*Featured Episodes section starts here*/
+
+.Episodes-fram{
+    display: flex;
+    gap: 20px;
+    align-items: center;
 }
 
 
