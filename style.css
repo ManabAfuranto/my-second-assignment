@@ -151,7 +151,7 @@
 }
 .Choose-TechWave-content{
     width: 80%;
-    height: 600px;
+    height: 630px;
     margin: 0 auto;
 }
 .Choose-TechWave-text{
@@ -206,13 +206,61 @@
 
 /*Choose-TechWave-container ends here*/
 
+/*Featured Episodes section starts here*/
 
+#Featured-Episodes{
+    background-color: #1B043A;
+}
+.Episodes-content{
+    width: 80%;
+    height: 500px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+.Episodes-text{
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.Episodes-fram{
+    display: flex;
+    justify-content: space-evenly;
 
+}
+.Episodes-card{
+    background-color: #2F0761;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 250px;
+    height: 360px;
+    color: white;
+    padding: 10px;
+}
+.Episodes-card h3{
+    font-size: 1rem;
+    padding: 7px 0px; 
+}
+.Episodes-card p{
+    font-size: 0.8rem;
+    color: lightgray;
+    line-height: 17px;
+    padding-bottom: 10px;
+}
+.min{
+    display: flex;
+    gap: 5px;
+}
+.min p{
+    color: #00FF88;
+}
+.min img{
+    width: 10px;
+    height: 13px; 
+}
 
-
-
-
-
+/*Featured Episodes section ends here*/
 
 
 
