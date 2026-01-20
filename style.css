@@ -11,7 +11,11 @@
 .gradient{
     background: linear-gradient(to right, #F7E93F, #FB09B4, #9100F8);
 }
-
+.gradient-text {
+  background: linear-gradient(to right, #F7E93F, #FB09B4, #9100F8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 
 /*common class ends here*/
 
@@ -344,19 +348,48 @@
 }
 .footer-content{
     background-image: url(./images/assets/footer-bg.png);
-    height: 350px;
+    height: 400px;
     background-position: center;
     background-repeat: no-repeat;
 }
+.footer-info{
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 125px;
+}
+.footer-info h3{
+    font-size: 3rem;
+    font-weight: bolder;
+}
+.info-text{
+    color: rgba(251, 9, 180, 1);
+
+}
+.footer-info p{
+    font-size: 0.8rem;
+    color: lightgray;
+}
+.icon{
+   display: flex; 
+   flex-direction: row;
+   gap: 10px;
+   font-size: 0.8rem;
+}
+.icon img{
+    width: 15px;
+    height: 13px;
+}
+.social-media-icon{
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0px;
+}
 
 /*footer section ends here*/
-
-
-
-
-
-
-
 
 
 
@@ -403,7 +436,7 @@
 /*Choose-TechWave-container starts here*/
 
 .Choose-TechWave-content{
-    height: 960px;  
+    height: 1000px;  
 }
 
 .TechWave-card-1{
@@ -458,25 +491,28 @@
     height: 600px;
 }
 
+/*footer section starts here*/
 
-
-
+.social-media-icon{
+    display: grid;
+    grid-template-columns: repeat(2, 0.1fr);
+    justify-items: center;
 }
 
-
-
-
-
-
-
-
-
+}
 
 
 @media screen and (min-width:577px) and (max-width:992px) {
 .hide-md{
      display: none;
 }
+
+/*banner section starts here*/
+    .button .text{
+        position: relative;
+        left: 350px;
+        bottom: 250px;  
+    }
 .content{
     width: 100%;
     padding: 0px 20px;
@@ -524,24 +560,21 @@
     align-items: center;
 }
 
+/*Meet Host section starts here*/
 
+.Meet-Host-content{
+    height: 450px;
+}
 
-
-
-
-
+/*footer section starts here*/
+.social-media-icon{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
 
 }
 
-
-
-
-
-
-
-
-
-
+}
 
 
 @media screen and (min-width:993px) {
